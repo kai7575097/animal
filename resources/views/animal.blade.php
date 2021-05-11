@@ -49,7 +49,7 @@
                         <form method="delete" action= "http://homestead.home/api/animal/{animal}" >
                         @csrf
                             <lable  class="col-form-lable text-md-left" >輸入想刪除編號：</lable>
-                                <input class="form-control" >
+                                <input  class="form-control" name="$aniaml" >
                             <button type="submit" class="btn btn-primary"  style="float:right">刪除</button>
                         </form>
                         </div>
